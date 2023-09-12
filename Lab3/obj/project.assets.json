@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "C:\\Users\\48562\\RiderProjects\\NTI_NIAU_MIFI_3Kurs\\ClassLibrary1\\ClassLibrary1.csproj"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\48562\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\NTI_NIAU_MIFI_3Kurs\\Lab3\\Lab3.csproj",
+      "projectName": "Lab3",
+      "projectPath": "C:\\Users\\48562\\RiderProjects\\NTI_NIAU_MIFI_3Kurs\\Lab3\\Lab3.csproj",
+      "packagesPath": "C:\\Users\\48562\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\48562\\RiderProjects\\NTI_NIAU_MIFI_3Kurs\\Lab3\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\48562\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\48562\\RiderProjects\\NTI_NIAU_MIFI_3Kurs\\ClassLibrary1\\ClassLibrary1.csproj": {
+              "projectPath": "C:\\Users\\48562\\RiderProjects\\NTI_NIAU_MIFI_3Kurs\\ClassLibrary1\\ClassLibrary1.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\48562\\RiderProjects\\NTI_NIAU_MIFI_3Kurs\\ClassLibrary1\\ClassLibrary1.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\48562\\RiderProjects\\NTI_NIAU_MIFI_3Kurs\\ClassLibrary1\\ClassLibrary1.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
