@@ -1,22 +1,23 @@
-﻿namespace Lab1;
-
-using System;
+﻿using System;
 
 public class Person
 {
-    private string name;
-    private string surname;
-    private DateTime birthdate;
+    private string name;  //закрытое поле типа string, в котором хранится имя;
+    private string surname;  //закрытое поле типа string, в котором хранится фамилия;
+    private DateTime birthDate;  //закрытое поле типа System.DateTime для даты рождения;
 
-    public Person(string name, string surname, DateTime birthdate)
+    //конструктор c тремя параметрами типа string, string, DateTime для инициализации всех полей класса;
+    public Person(string name, string surname, DateTime birthDate)
     {
         this.name = name;
         this.surname = surname;
-        this.birthdate = birthdate;
+        this.birthDate = birthDate;
     }
 
-    public Person() : this("Default", "Default", DateTime.MinValue) { }
+    //конструктор без параметров, инициализирующий все поля класса некоторыми значениями по умолчанию.
+    public Person() : this("John", "Doe", DateTime.Now) { }
 
+    // свойства c методами get и set
     public string Name
     {
         get { return name; }
@@ -31,23 +32,25 @@ public class Person
 
     public DateTime BirthDate
     {
-        get { return birthdate; }
-        set { birthdate = value; }
+        get { return birthDate; }
+        set { birthDate = value; }
     }
 
     public int BirthYear
     {
-        get { return birthdate.Year; }
-        set { birthdate = new DateTime(value, birthdate.Month, birthdate.Day); }
+        get { return birthDate.Year; }
+        set { birthDate = new DateTime(value, birthDate.Month, birthDate.Day); }
     }
 
+    //перегруженная(override) версию виртуального метода string ToString() для формирования строки со значениями всех полей класса;
     public override string ToString()
     {
-        return $"{Name} {Surname} {BirthDate.ToShortDateString()}";
+        return $"Name: {Name}, Surname: {Surname}, Birth date: {BirthDate}";
     }
 
+    //виртуальный метод string ToShortString(), который возвращает строку, содержащую только имя и фамилию.
     public virtual string ToShortString()
     {
-        return $"{Name} {Surname}";
+        return $"Name: {Name}, Surname: {Surname}";
     }
 }

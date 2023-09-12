@@ -1,13 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net6.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "C:\\Users\\48562\\RiderProjects\\NTI_NIAU_MIFI_3Kurs\\ClassLibrary1\\ClassLibrary1.csproj"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\48562\\.nuget\\packages\\": {},
@@ -31,21 +29,16 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "projectReferences": {
-            "C:\\Users\\48562\\RiderProjects\\NTI_NIAU_MIFI_3Kurs\\ClassLibrary1\\ClassLibrary1.csproj": {
-              "projectPath": "C:\\Users\\48562\\RiderProjects\\NTI_NIAU_MIFI_3Kurs\\ClassLibrary1\\ClassLibrary1.csproj"
-            }
-          }
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -55,8 +48,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",
@@ -76,16 +69,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\48562\\RiderProjects\\NTI_NIAU_MIFI_3Kurs\\ClassLibrary1\\ClassLibrary1.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\48562\\RiderProjects\\NTI_NIAU_MIFI_3Kurs\\ClassLibrary1\\ClassLibrary1.csproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }

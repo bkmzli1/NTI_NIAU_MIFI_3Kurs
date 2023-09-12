@@ -1,8 +1,9 @@
 ﻿namespace Lab1;
 
-public enum Education
+//Определение перечисления (enumeration)
+public enum Education 
 {
-    Specialist,
-    Bachelor,
-    SecondEducation
+    Specialist,      // Специалист
+    Bachelor,        // Бакалавр
+    SecondEducation  // Второе высшее образование
 }
