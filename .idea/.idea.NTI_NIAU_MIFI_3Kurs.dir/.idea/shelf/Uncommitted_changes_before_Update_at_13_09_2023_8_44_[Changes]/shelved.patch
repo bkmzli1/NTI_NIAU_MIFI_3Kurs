@@ -1,0 +1,16 @@
+Index: Lab2/Lab2.csproj
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><Project Sdk=\"Microsoft.NET.Sdk\">\r\n\r\n    <PropertyGroup>\r\n        <OutputType>Exe</OutputType>\r\n        <TargetFramework>net7.0</TargetFramework>\r\n        <RootNamespace>Lab2</RootNamespace>\r\n        <ImplicitUsings>enable</ImplicitUsings>\r\n        <Nullable>enable</Nullable>\r\n    </PropertyGroup>\r\n\r\n    <ItemGroup>\r\n      <ProjectReference Include=\"..\\Lab1\\Lab1.csproj\" />\r\n    </ItemGroup>\r\n\r\n</Project>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lab2/Lab2.csproj b/Lab2/Lab2.csproj
+--- a/Lab2/Lab2.csproj	(revision b634c49056e9f3efe2152177e58407361b18d520)
++++ b/Lab2/Lab2.csproj	(date 1694576648649)
+@@ -13,3 +13,4 @@
+     </ItemGroup>
+ 
+ </Project>
++g
+\ No newline at end of file

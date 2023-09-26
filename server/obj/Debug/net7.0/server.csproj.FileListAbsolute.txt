@@ -1,0 +1,14 @@
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\server\bin\Debug\net7.0\server.exe
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\server\bin\Debug\net7.0\server.deps.json
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\server\bin\Debug\net7.0\server.runtimeconfig.json
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\server\bin\Debug\net7.0\server.dll
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\server\bin\Debug\net7.0\server.pdb
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\server\obj\Debug\net7.0\server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\server\obj\Debug\net7.0\server.AssemblyInfoInputs.cache
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\server\obj\Debug\net7.0\server.AssemblyInfo.cs
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\server\obj\Debug\net7.0\server.csproj.CoreCompileInputs.cache
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\server\obj\Debug\net7.0\server.dll
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\server\obj\Debug\net7.0\refint\server.dll
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\server\obj\Debug\net7.0\server.pdb
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\server\obj\Debug\net7.0\server.genruntimeconfig.cache
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\server\obj\Debug\net7.0\ref\server.dll
