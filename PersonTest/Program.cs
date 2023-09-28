@@ -10,6 +10,9 @@ namespace PersonTest
     {
         static void Main(string[] args)
         {
+            Person person = new Person();
+            person.TestPersonProps();
+            
         }
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\PersonTest\bin\Debug\PersonTest.exe.config
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\PersonTest\bin\Debug\PersonTest.exe
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\PersonTest\bin\Debug\PersonTest.pdb
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\PersonTest\obj\Debug\PersonTest.csproj.AssemblyReference.cache
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\PersonTest\obj\Debug\PersonTest.csproj.CoreCompileInputs.cache
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\PersonTest\obj\Debug\PersonTest.exe
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\PersonTest\obj\Debug\PersonTest.pdb
