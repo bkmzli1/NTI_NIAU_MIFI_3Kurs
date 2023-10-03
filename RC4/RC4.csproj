@@ -72,6 +72,12 @@
     <Compile Include="F2.Designer.cs">
       <DependentUpon>F2.cs</DependentUpon>
     </Compile>
+    <Compile Include="F3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F3.Designer.cs">
+      <DependentUpon>F3.cs</DependentUpon>
+    </Compile>
     <Compile Include="FMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     <Compile Include="RC4My.cs" />
     <EmbeddedResource Include="F2.resx">
       <DependentUpon>F2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F3.resx">
+      <DependentUpon>F3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FMain.resx">
       <DependentUpon>FMain.cs</DependentUpon>

@@ -8,15 +8,16 @@ namespace RC4
         private byte[] s = new byte[256];
         private int x = 0, y = 0;
 
-        public RC4(byte[] kay)
+        public RC4(byte[] key)
         {
-            init(kay);
+            init(key);
         }
 
-        private void init(byte[] kay)
+        private void init(byte[] key)
         {
-            int ketLength = kay.Length;
-            for (int i = 0; i <= 256; i++)
+            int keyLength = key.Length;
+
+            for (int i = 0; i < 256; i++)
             {
                 s[i] = (byte)i;
             }
@@ -24,14 +25,14 @@ namespace RC4
             int j = 0;
             for (int i = 0; i < 256; i++)
             {
-                j = (j + s[i] + kay[i % ketLength]) % 256;
-                s.Swap(i, j);
+                j = (j + s[i] + key[i % keyLength]) % 256;
+                s.Swap(i, j);      
             }
         }
 
-        public byte[] Encod(byte[] dataB, int size)
+        public byte[] Encod(byte[] dataB)
         {
-            byte[] data = dataB.Take(size).ToArray();
+            byte[] data = dataB.Take(dataB.Length).ToArray();
             byte[] clipher = new byte[data.Length];
             for (int m = 0; m < data.Length; m++)
             {

@@ -31,5 +31,17 @@ namespace RC4
         {
             Application.Exit();
         }
+
+        private void шифроватьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F2 f2 = new F2();
+            f2.ShowDialog();
+        }
+
+        private void дешифроватьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F3 f3 = new F3();
+            f3.ShowDialog();
+        }
     }
 }

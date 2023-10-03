@@ -1,0 +1,12 @@
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\RC4\bin\x64\Debug\RC4.exe.config
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\RC4\bin\x64\Debug\RC4.exe
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\RC4\bin\x64\Debug\RC4.pdb
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\RC4\obj\x64\Debug\RC4.csproj.AssemblyReference.cache
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\RC4\obj\x64\Debug\RC4.F2.resources
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\RC4\obj\x64\Debug\RC4.FMain.resources
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\RC4\obj\x64\Debug\RC4.Properties.Resources.resources
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\RC4\obj\x64\Debug\RC4.csproj.GenerateResource.cache
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\RC4\obj\x64\Debug\RC4.csproj.CoreCompileInputs.cache
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\RC4\obj\x64\Debug\RC4.exe
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\RC4\obj\x64\Debug\RC4.pdb
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\RC4\obj\x64\Debug\RC4.F3.resources
