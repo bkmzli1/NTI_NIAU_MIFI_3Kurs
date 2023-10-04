@@ -98,7 +98,7 @@ namespace IT31DEdit
         private void вырезатьToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Clipboard.Clear();
-            Clipboard.SetData(DataFormats.Rtf, richTextBox1.Rtf);
+            Clipboard.SetData(DataFormats.Rtf, richTextBox1.SelectedRtf);
             richTextBox1.SelectedRtf = "";
         }
 
@@ -117,6 +117,11 @@ namespace IT31DEdit
         private void вернутьToolStripMenuItem_Click(object sender, EventArgs e)
         {
             richTextBox1.Redo();
+        }
+
+        private void копироватьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 

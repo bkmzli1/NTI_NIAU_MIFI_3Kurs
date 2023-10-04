@@ -21,3 +21,4 @@ C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\IT31DEdit\obj\Debug\IT31DEdit.c
 C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\IT31DEdit\obj\Debug\IT31DEdit.csproj.CopyComplete
 C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\IT31DEdit\obj\Debug\IT31DEdit.exe
 C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\IT31DEdit\obj\Debug\IT31DEdit.pdb
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\IT31DEdit\bin\Debug\NewRTB2.dll
