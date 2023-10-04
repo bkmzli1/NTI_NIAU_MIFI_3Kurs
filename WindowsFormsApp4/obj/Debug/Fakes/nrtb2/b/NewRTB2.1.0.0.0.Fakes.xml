@@ -1,0 +1,1337 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NewRTB2.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.NewRTB2Delegates">
+            <summary>Содержит пользовательские делегаты для заглушек и оболочек совместимости NewRTB2</summary>
+        </member>
+        <member name="T:NewRTB2.Fakes.ShimNewRTB">
+            <summary>Тип оболочки совместимости для NewRTB2.NewRTB</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.ShimNewRTB.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.ShimNewRTB.#ctor(NewRTB2.NewRTB)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="T:NewRTB2.Fakes.ShimNewRTB.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.ShimNewRTB.AllInstances.BeginUpdate">
+            <summary>Задает Оболочка совместимости NewRTB.BeginUpdate()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.ShimNewRTB.AllInstances.EndUpdate">
+            <summary>Задает Оболочка совместимости NewRTB.EndUpdate()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.ShimNewRTB.AllInstances.OnHandleCreatedEventArgs">
+            <summary>Задает Оболочка совместимости NewRTB.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.ShimNewRTB.AllInstances.PrintInt32Int32PrintPageEventArgs">
+            <summary>Задает Оболочка совместимости NewRTB.Print(Int32 charFrom, Int32 charTo, PrintPageEventArgs e)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.ShimNewRTB.AllInstances.SelectionAlignmentGet">
+            <summary>Задает Оболочка совместимости NewRTB.get_SelectionAlignment()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.ShimNewRTB.AllInstances.SelectionAlignmentSetTextAlign">
+            <summary>Задает Оболочка совместимости NewRTB.set_SelectionAlignment(TextAlign value)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.ShimNewRTB.BeginUpdate">
+            <summary>Задает Оболочка совместимости NewRTB.BeginUpdate()</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.ShimNewRTB.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.ShimNewRTB.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.ShimNewRTB.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.ShimNewRTB.Bind(System.ComponentModel.IComponent)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.ShimNewRTB.Bind(System.ComponentModel.ISynchronizeInvoke)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.ShimNewRTB.Bind(System.Windows.Forms.IBindableComponent)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.ShimNewRTB.Bind(System.Windows.Forms.IDropTarget)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.ShimNewRTB.Bind(System.Windows.Forms.IWin32Window)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.ShimNewRTB.Bind(System.IDisposable)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.ShimNewRTB.Constructor">
+            <summary>Задает Оболочка совместимости NewRTB.NewRTB()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.ShimNewRTB.EndUpdate">
+            <summary>Задает Оболочка совместимости NewRTB.EndUpdate()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.ShimNewRTB.OnHandleCreatedEventArgs">
+            <summary>Задает Оболочка совместимости NewRTB.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.ShimNewRTB.PrintInt32Int32PrintPageEventArgs">
+            <summary>Задает Оболочка совместимости NewRTB.Print(Int32 charFrom, Int32 charTo, PrintPageEventArgs e)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.ShimNewRTB.SelectionAlignmentGet">
+            <summary>Задает Оболочка совместимости NewRTB.get_SelectionAlignment()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.ShimNewRTB.SelectionAlignmentSetTextAlign">
+            <summary>Задает Оболочка совместимости NewRTB.set_SelectionAlignment(TextAlign value)</summary>
+        </member>
+        <member name="T:NewRTB2.Fakes.StubNewRTB">
+            <summary>Тип заглушки NewRTB2.NewRTB</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.AllowDrop">
+            <summary>Задает stub RichTextBox.get_AllowDrop()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.AllowDropGet">
+            <summary>Задает stub RichTextBox.get_AllowDrop()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.AllowDropSetBoolean">
+            <summary>Задает stub RichTextBox.set_AllowDrop(Boolean value)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.Anchor">
+            <summary>Задает stub Control.get_Anchor()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.AnchorGet">
+            <summary>Задает stub Control.get_Anchor()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.AnchorSetAnchorStyles">
+            <summary>Задает stub Control.set_Anchor(AnchorStyles value)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToAllowDrop">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.AllowDrop как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToAnchor">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.Anchor как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToAutoScrollOffset">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.AutoScrollOffset как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToAutoSize">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.AutoSize как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToBackColor">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.BackColor как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToBackgroundImage">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.BackgroundImage как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToBackgroundImageLayout">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.BackgroundImageLayout как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToBindingContext">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.BindingContext как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToContextMenu">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.ContextMenu как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToContextMenuStrip">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.ContextMenuStrip как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToCursor">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.Cursor как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToDock">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.Dock как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToDoubleBuffered">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.DoubleBuffered как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToFont">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.Font как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToForeColor">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.ForeColor как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToImeModeBase">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.ImeModeBase как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToMaxLength">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.MaxLength как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToMaximumSize">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.MaximumSize как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToMinimumSize">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.MinimumSize как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToMultiline">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.Multiline как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToRightToLeft">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.RightToLeft как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToSelectedText">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.SelectedText как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToSelectionLength">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.SelectionLength как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToShortcutsEnabled">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.ShortcutsEnabled как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToSite">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.Site как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.AttachBackingFieldToText">
+            <summary>Присоединение делегатов для эмуляции StubNewRTB.Text как свойства с резервным полем.</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.AutoScrollOffset">
+            <summary>Задает stub Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.AutoScrollOffsetGet">
+            <summary>Задает stub Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.AutoScrollOffsetSetPoint">
+            <summary>Задает stub Control.set_AutoScrollOffset(Point value)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.AutoSize">
+            <summary>Задает stub RichTextBox.get_AutoSize()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.AutoSizeGet">
+            <summary>Задает stub RichTextBox.get_AutoSize()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.AutoSizeSetBoolean">
+            <summary>Задает stub RichTextBox.set_AutoSize(Boolean value)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.BackColor">
+            <summary>Задает stub TextBoxBase.get_BackColor()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.BackColorGet">
+            <summary>Задает stub TextBoxBase.get_BackColor()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.BackColorSetColor">
+            <summary>Задает stub TextBoxBase.set_BackColor(Color value)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.BackgroundImage">
+            <summary>Задает stub RichTextBox.get_BackgroundImage()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.BackgroundImageGet">
+            <summary>Задает stub RichTextBox.get_BackgroundImage()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.BackgroundImageLayout">
+            <summary>Задает stub RichTextBox.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.BackgroundImageLayoutGet">
+            <summary>Задает stub RichTextBox.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.BackgroundImageLayoutSetImageLayout">
+            <summary>Задает stub RichTextBox.set_BackgroundImageLayout(ImageLayout value)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.BackgroundImageSetImage">
+            <summary>Задает stub RichTextBox.set_BackgroundImage(Image value)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.BindingContext">
+            <summary>Задает stub Control.get_BindingContext()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.BindingContextGet">
+            <summary>Задает stub Control.get_BindingContext()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.BindingContextSetBindingContext">
+            <summary>Задает stub Control.set_BindingContext(BindingContext value)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.CanEnableIme">
+            <summary>Задает stub TextBoxBase.get_CanEnableIme()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.CanEnableImeGet">
+            <summary>Задает stub TextBoxBase.get_CanEnableIme()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.CanRaiseEvents">
+            <summary>Задает stub Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.CanRaiseEventsGet">
+            <summary>Задает stub Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.ContextMenu">
+            <summary>Задает stub Control.get_ContextMenu()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ContextMenuGet">
+            <summary>Задает stub Control.get_ContextMenu()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ContextMenuSetContextMenu">
+            <summary>Задает stub Control.set_ContextMenu(ContextMenu value)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.ContextMenuStrip">
+            <summary>Задает stub Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ContextMenuStripGet">
+            <summary>Задает stub Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ContextMenuStripSetContextMenuStrip">
+            <summary>Задает stub Control.set_ContextMenuStrip(ContextMenuStrip value)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.CreateAccessibilityInstance">
+            <summary>Задает Заглушка Control.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.CreateAccessibilityInstance01">
+            <summary>Задает stub Control.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.CreateControlsInstance">
+            <summary>Задает Заглушка Control.CreateControlsInstance()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.CreateControlsInstance01">
+            <summary>Задает stub Control.CreateControlsInstance()</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.CreateHandle">
+            <summary>Задает Заглушка TextBoxBase.CreateHandle()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.CreateHandle01">
+            <summary>Задает stub TextBoxBase.CreateHandle()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.CreateParams">
+            <summary>Задает stub RichTextBox.get_CreateParams()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.CreateParamsGet">
+            <summary>Задает stub RichTextBox.get_CreateParams()</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.CreateRichEditOleCallback">
+            <summary>Задает Заглушка RichTextBox.CreateRichEditOleCallback()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.CreateRichEditOleCallback01">
+            <summary>Задает stub RichTextBox.CreateRichEditOleCallback()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.Cursor">
+            <summary>Задает stub Control.get_Cursor()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.CursorGet">
+            <summary>Задает stub Control.get_Cursor()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.CursorSetCursor">
+            <summary>Задает stub Control.set_Cursor(Cursor value)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.DefWndProc(System.Windows.Forms.Message@)">
+            <summary>Задает Заглушка Control.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.DefWndProcMessageRef">
+            <summary>Задает stub Control.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.DefaultCursor">
+            <summary>Задает stub TextBoxBase.get_DefaultCursor()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.DefaultCursorGet">
+            <summary>Задает stub TextBoxBase.get_DefaultCursor()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.DefaultImeMode">
+            <summary>Задает stub Control.get_DefaultImeMode()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.DefaultImeModeGet">
+            <summary>Задает stub Control.get_DefaultImeMode()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.DefaultMargin">
+            <summary>Задает stub Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.DefaultMarginGet">
+            <summary>Задает stub Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.DefaultMaximumSize">
+            <summary>Задает stub Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.DefaultMaximumSizeGet">
+            <summary>Задает stub Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.DefaultMinimumSize">
+            <summary>Задает stub Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.DefaultMinimumSizeGet">
+            <summary>Задает stub Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.DefaultPadding">
+            <summary>Задает stub Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.DefaultPaddingGet">
+            <summary>Задает stub Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.DefaultSize">
+            <summary>Задает stub RichTextBox.get_DefaultSize()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.DefaultSizeGet">
+            <summary>Задает stub RichTextBox.get_DefaultSize()</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.DestroyHandle">
+            <summary>Задает Заглушка Control.DestroyHandle()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.DestroyHandle01">
+            <summary>Задает stub Control.DestroyHandle()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.DisplayRectangle">
+            <summary>Задает stub Control.get_DisplayRectangle()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.DisplayRectangleGet">
+            <summary>Задает stub Control.get_DisplayRectangle()</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.Dispose(System.Boolean)">
+            <summary>Задает Заглушка Control.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.DisposeBoolean">
+            <summary>Задает stub Control.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.Dock">
+            <summary>Задает stub Control.get_Dock()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.DockGet">
+            <summary>Задает stub Control.get_Dock()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.DockSetDockStyle">
+            <summary>Задает stub Control.set_Dock(DockStyle value)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.DoubleBuffered">
+            <summary>Задает stub TextBoxBase.get_DoubleBuffered()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.DoubleBufferedGet">
+            <summary>Задает stub TextBoxBase.get_DoubleBuffered()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.DoubleBufferedSetBoolean">
+            <summary>Задает stub TextBoxBase.set_DoubleBuffered(Boolean value)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.Focused">
+            <summary>Задает stub Control.get_Focused()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.FocusedGet">
+            <summary>Задает stub Control.get_Focused()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.Font">
+            <summary>Задает stub RichTextBox.get_Font()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.FontGet">
+            <summary>Задает stub RichTextBox.get_Font()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.FontSetFont">
+            <summary>Задает stub RichTextBox.set_Font(Font value)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.ForeColor">
+            <summary>Задает stub RichTextBox.get_ForeColor()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ForeColorGet">
+            <summary>Задает stub RichTextBox.get_ForeColor()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ForeColorSetColor">
+            <summary>Задает stub RichTextBox.set_ForeColor(Color value)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.GetAccessibilityObjectById(System.Int32)">
+            <summary>Задает Заглушка Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.GetAccessibilityObjectByIdInt32">
+            <summary>Задает stub Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.GetCharFromPosition(System.Drawing.Point)">
+            <summary>Задает Заглушка TextBoxBase.GetCharFromPosition(Point pt)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.GetCharFromPositionPoint">
+            <summary>Задает stub TextBoxBase.GetCharFromPosition(Point pt)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.GetCharIndexFromPosition(System.Drawing.Point)">
+            <summary>Задает Заглушка RichTextBox.GetCharIndexFromPosition(Point pt)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.GetCharIndexFromPositionPoint">
+            <summary>Задает stub RichTextBox.GetCharIndexFromPosition(Point pt)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.GetLineFromCharIndex(System.Int32)">
+            <summary>Задает Заглушка RichTextBox.GetLineFromCharIndex(Int32 index)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.GetLineFromCharIndexInt32">
+            <summary>Задает stub RichTextBox.GetLineFromCharIndex(Int32 index)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.GetPositionFromCharIndex(System.Int32)">
+            <summary>Задает Заглушка RichTextBox.GetPositionFromCharIndex(Int32 index)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.GetPositionFromCharIndexInt32">
+            <summary>Задает stub RichTextBox.GetPositionFromCharIndex(Int32 index)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.GetPreferredSize(System.Drawing.Size)">
+            <summary>Задает Заглушка Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.GetPreferredSizeSize">
+            <summary>Задает stub Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.GetScaledBounds(System.Drawing.Rectangle,System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Задает Заглушка Control.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.GetScaledBoundsRectangleSizeFBoundsSpecified">
+            <summary>Задает stub Control.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.GetService(System.Type)">
+            <summary>Задает Заглушка Component.GetService(Type service)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.GetServiceType">
+            <summary>Задает stub Component.GetService(Type service)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.ImeModeBase">
+            <summary>Задает stub TextBoxBase.get_ImeModeBase()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ImeModeBaseGet">
+            <summary>Задает stub TextBoxBase.get_ImeModeBase()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ImeModeBaseSetImeMode">
+            <summary>Задает stub TextBoxBase.set_ImeModeBase(ImeMode value)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.InitLayout">
+            <summary>Задает Заглушка Control.InitLayout()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.InitLayout01">
+            <summary>Задает stub Control.InitLayout()</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubNewRTB</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.IsInputChar(System.Char)">
+            <summary>Задает Заглушка Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.IsInputCharChar">
+            <summary>Задает stub Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.IsInputKey(System.Windows.Forms.Keys)">
+            <summary>Задает Заглушка TextBoxBase.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.IsInputKeyKeys">
+            <summary>Задает stub TextBoxBase.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.LayoutEngine">
+            <summary>Задает stub Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.LayoutEngineGet">
+            <summary>Задает stub Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.MaxLength">
+            <summary>Задает stub RichTextBox.get_MaxLength()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.MaxLengthGet">
+            <summary>Задает stub RichTextBox.get_MaxLength()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.MaxLengthSetInt32">
+            <summary>Задает stub RichTextBox.set_MaxLength(Int32 value)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.MaximumSize">
+            <summary>Задает stub Control.get_MaximumSize()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.MaximumSizeGet">
+            <summary>Задает stub Control.get_MaximumSize()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.MaximumSizeSetSize">
+            <summary>Задает stub Control.set_MaximumSize(Size value)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.MinimumSize">
+            <summary>Задает stub Control.get_MinimumSize()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.MinimumSizeGet">
+            <summary>Задает stub Control.get_MinimumSize()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.MinimumSizeSetSize">
+            <summary>Задает stub Control.set_MinimumSize(Size value)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.Multiline">
+            <summary>Задает stub RichTextBox.get_Multiline()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.MultilineGet">
+            <summary>Задает stub RichTextBox.get_Multiline()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.MultilineSetBoolean">
+            <summary>Задает stub RichTextBox.set_Multiline(Boolean value)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.NotifyInvalidate(System.Drawing.Rectangle)">
+            <summary>Задает Заглушка Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.NotifyInvalidateRectangle">
+            <summary>Задает stub Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnAcceptsTabChanged(System.EventArgs)">
+            <summary>Задает Заглушка TextBoxBase.OnAcceptsTabChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnAcceptsTabChangedEventArgs">
+            <summary>Задает stub TextBoxBase.OnAcceptsTabChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnAutoSizeChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnAutoSizeChangedEventArgs">
+            <summary>Задает stub Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnBackColorChanged(System.EventArgs)">
+            <summary>Задает Заглушка RichTextBox.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnBackColorChangedEventArgs">
+            <summary>Задает stub RichTextBox.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnBackgroundImageChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnBackgroundImageChangedEventArgs">
+            <summary>Задает stub Control.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnBackgroundImageLayoutChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnBackgroundImageLayoutChangedEventArgs">
+            <summary>Задает stub Control.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnBindingContextChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnBindingContextChangedEventArgs">
+            <summary>Задает stub Control.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnBorderStyleChanged(System.EventArgs)">
+            <summary>Задает Заглушка TextBoxBase.OnBorderStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnBorderStyleChangedEventArgs">
+            <summary>Задает stub TextBoxBase.OnBorderStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnCausesValidationChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnCausesValidationChangedEventArgs">
+            <summary>Задает stub Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnChangeUICues(System.Windows.Forms.UICuesEventArgs)">
+            <summary>Задает Заглушка Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnChangeUICuesUICuesEventArgs">
+            <summary>Задает stub Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnClick(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnClickEventArgs">
+            <summary>Задает stub Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnClientSizeChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnClientSizeChangedEventArgs">
+            <summary>Задает stub Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnContentsResized(System.Windows.Forms.ContentsResizedEventArgs)">
+            <summary>Задает Заглушка RichTextBox.OnContentsResized(ContentsResizedEventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnContentsResizedContentsResizedEventArgs">
+            <summary>Задает stub RichTextBox.OnContentsResized(ContentsResizedEventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnContextMenuChanged(System.EventArgs)">
+            <summary>Задает Заглушка RichTextBox.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnContextMenuChangedEventArgs">
+            <summary>Задает stub RichTextBox.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnContextMenuStripChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnContextMenuStripChangedEventArgs">
+            <summary>Задает stub Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnControlAdded(System.Windows.Forms.ControlEventArgs)">
+            <summary>Задает Заглушка Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnControlAddedControlEventArgs">
+            <summary>Задает stub Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnControlRemoved(System.Windows.Forms.ControlEventArgs)">
+            <summary>Задает Заглушка Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnControlRemovedControlEventArgs">
+            <summary>Задает stub Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnCreateControl">
+            <summary>Задает Заглушка Control.OnCreateControl()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnCreateControl01">
+            <summary>Задает stub Control.OnCreateControl()</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnCursorChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnCursorChangedEventArgs">
+            <summary>Задает stub Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnDockChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnDockChangedEventArgs">
+            <summary>Задает stub Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnDoubleClick(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnDoubleClickEventArgs">
+            <summary>Задает stub Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnDragDrop(System.Windows.Forms.DragEventArgs)">
+            <summary>Задает Заглушка Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnDragDropDragEventArgs">
+            <summary>Задает stub Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnDragEnter(System.Windows.Forms.DragEventArgs)">
+            <summary>Задает Заглушка Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnDragEnterDragEventArgs">
+            <summary>Задает stub Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnDragLeave(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnDragLeaveEventArgs">
+            <summary>Задает stub Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnDragOver(System.Windows.Forms.DragEventArgs)">
+            <summary>Задает Заглушка Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnDragOverDragEventArgs">
+            <summary>Задает stub Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnEnabledChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnEnabledChangedEventArgs">
+            <summary>Задает stub Control.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnEnter(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnEnterEventArgs">
+            <summary>Задает stub Control.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnFontChanged(System.EventArgs)">
+            <summary>Задает Заглушка TextBoxBase.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnFontChangedEventArgs">
+            <summary>Задает stub TextBoxBase.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnForeColorChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnForeColorChangedEventArgs">
+            <summary>Задает stub Control.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnGiveFeedback(System.Windows.Forms.GiveFeedbackEventArgs)">
+            <summary>Задает Заглушка Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnGiveFeedbackGiveFeedbackEventArgs">
+            <summary>Задает stub Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnGotFocus(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnGotFocusEventArgs">
+            <summary>Задает stub Control.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnHScroll(System.EventArgs)">
+            <summary>Задает Заглушка RichTextBox.OnHScroll(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnHScrollEventArgs">
+            <summary>Задает stub RichTextBox.OnHScroll(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnHandleCreated(System.EventArgs)">
+            <summary>Задает Заглушка NewRTB.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnHandleCreatedEventArgs">
+            <summary>Задает stub NewRTB.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnHandleDestroyed(System.EventArgs)">
+            <summary>Задает Заглушка RichTextBox.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnHandleDestroyedEventArgs">
+            <summary>Задает stub RichTextBox.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnHelpRequested(System.Windows.Forms.HelpEventArgs)">
+            <summary>Задает Заглушка Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnHelpRequestedHelpEventArgs">
+            <summary>Задает stub Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnHideSelectionChanged(System.EventArgs)">
+            <summary>Задает Заглушка TextBoxBase.OnHideSelectionChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnHideSelectionChangedEventArgs">
+            <summary>Задает stub TextBoxBase.OnHideSelectionChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnImeChange(System.EventArgs)">
+            <summary>Задает Заглушка RichTextBox.OnImeChange(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnImeChangeEventArgs">
+            <summary>Задает stub RichTextBox.OnImeChange(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnImeModeChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnImeModeChangedEventArgs">
+            <summary>Задает stub Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnInvalidated(System.Windows.Forms.InvalidateEventArgs)">
+            <summary>Задает Заглушка Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnInvalidatedInvalidateEventArgs">
+            <summary>Задает stub Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>Задает Заглушка Control.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnKeyDownKeyEventArgs">
+            <summary>Задает stub Control.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnKeyPress(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>Задает Заглушка Control.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnKeyPressKeyPressEventArgs">
+            <summary>Задает stub Control.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+            <summary>Задает Заглушка Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnKeyUpKeyEventArgs">
+            <summary>Задает stub Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnLayout(System.Windows.Forms.LayoutEventArgs)">
+            <summary>Задает Заглушка Control.OnLayout(LayoutEventArgs levent)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnLayoutLayoutEventArgs">
+            <summary>Задает stub Control.OnLayout(LayoutEventArgs levent)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnLeave(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnLeaveEventArgs">
+            <summary>Задает stub Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnLinkClicked(System.Windows.Forms.LinkClickedEventArgs)">
+            <summary>Задает Заглушка RichTextBox.OnLinkClicked(LinkClickedEventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnLinkClickedLinkClickedEventArgs">
+            <summary>Задает stub RichTextBox.OnLinkClicked(LinkClickedEventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnLocationChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnLocationChangedEventArgs">
+            <summary>Задает stub Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnLostFocus(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnLostFocusEventArgs">
+            <summary>Задает stub Control.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnMarginChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnMarginChangedEventArgs">
+            <summary>Задает stub Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnModifiedChanged(System.EventArgs)">
+            <summary>Задает Заглушка TextBoxBase.OnModifiedChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnModifiedChangedEventArgs">
+            <summary>Задает stub TextBoxBase.OnModifiedChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnMouseCaptureChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnMouseCaptureChangedEventArgs">
+            <summary>Задает stub Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnMouseClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает Заглушка Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnMouseClickMouseEventArgs">
+            <summary>Задает stub Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnMouseDoubleClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает Заглушка Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnMouseDoubleClickMouseEventArgs">
+            <summary>Задает stub Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает Заглушка Control.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnMouseDownMouseEventArgs">
+            <summary>Задает stub Control.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnMouseEnter(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnMouseEnterEventArgs">
+            <summary>Задает stub Control.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnMouseHover(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnMouseHoverEventArgs">
+            <summary>Задает stub Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnMouseLeave(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnMouseLeaveEventArgs">
+            <summary>Задает stub Control.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает Заглушка Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnMouseMoveMouseEventArgs">
+            <summary>Задает stub Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает Заглушка TextBoxBase.OnMouseUp(MouseEventArgs mevent)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnMouseUpMouseEventArgs">
+            <summary>Задает stub TextBoxBase.OnMouseUp(MouseEventArgs mevent)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnMouseWheel(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает Заглушка Control.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnMouseWheelMouseEventArgs">
+            <summary>Задает stub Control.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnMove(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnMoveEventArgs">
+            <summary>Задает stub Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnMultilineChanged(System.EventArgs)">
+            <summary>Задает Заглушка TextBoxBase.OnMultilineChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnMultilineChangedEventArgs">
+            <summary>Задает stub TextBoxBase.OnMultilineChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnNotifyMessage(System.Windows.Forms.Message)">
+            <summary>Задает Заглушка Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnNotifyMessageMessage">
+            <summary>Задает stub Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnPaddingChanged(System.EventArgs)">
+            <summary>Задает Заглушка TextBoxBase.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnPaddingChangedEventArgs">
+            <summary>Задает stub TextBoxBase.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Задает Заглушка Control.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>Задает Заглушка Control.OnPaintBackground(PaintEventArgs pevent)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnPaintBackgroundPaintEventArgs">
+            <summary>Задает stub Control.OnPaintBackground(PaintEventArgs pevent)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnPaintPaintEventArgs">
+            <summary>Задает stub Control.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnParentBackColorChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnParentBackColorChangedEventArgs">
+            <summary>Задает stub Control.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnParentBackgroundImageChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnParentBackgroundImageChangedEventArgs">
+            <summary>Задает stub Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnParentBindingContextChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnParentBindingContextChangedEventArgs">
+            <summary>Задает stub Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnParentChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnParentChangedEventArgs">
+            <summary>Задает stub Control.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnParentCursorChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnParentCursorChangedEventArgs">
+            <summary>Задает stub Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnParentEnabledChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnParentEnabledChangedEventArgs">
+            <summary>Задает stub Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnParentFontChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnParentFontChangedEventArgs">
+            <summary>Задает stub Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnParentForeColorChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnParentForeColorChangedEventArgs">
+            <summary>Задает stub Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnParentRightToLeftChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnParentRightToLeftChangedEventArgs">
+            <summary>Задает stub Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnParentVisibleChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnParentVisibleChangedEventArgs">
+            <summary>Задает stub Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnPreviewKeyDown(System.Windows.Forms.PreviewKeyDownEventArgs)">
+            <summary>Задает Заглушка Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnPreviewKeyDownPreviewKeyDownEventArgs">
+            <summary>Задает stub Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnPrint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Задает Заглушка Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnPrintPaintEventArgs">
+            <summary>Задает stub Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnProtected(System.EventArgs)">
+            <summary>Задает Заглушка RichTextBox.OnProtected(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnProtectedEventArgs">
+            <summary>Задает stub RichTextBox.OnProtected(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnQueryContinueDrag(System.Windows.Forms.QueryContinueDragEventArgs)">
+            <summary>Задает Заглушка Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnQueryContinueDragQueryContinueDragEventArgs">
+            <summary>Задает stub Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnReadOnlyChanged(System.EventArgs)">
+            <summary>Задает Заглушка TextBoxBase.OnReadOnlyChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnReadOnlyChangedEventArgs">
+            <summary>Задает stub TextBoxBase.OnReadOnlyChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnRegionChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnRegionChangedEventArgs">
+            <summary>Задает stub Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnResize(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnResizeEventArgs">
+            <summary>Задает stub Control.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnRightToLeftChanged(System.EventArgs)">
+            <summary>Задает Заглушка RichTextBox.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnRightToLeftChangedEventArgs">
+            <summary>Задает stub RichTextBox.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnSelectionChanged(System.EventArgs)">
+            <summary>Задает Заглушка RichTextBox.OnSelectionChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnSelectionChangedEventArgs">
+            <summary>Задает stub RichTextBox.OnSelectionChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnSizeChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnSizeChangedEventArgs">
+            <summary>Задает stub Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnStyleChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnStyleChangedEventArgs">
+            <summary>Задает stub Control.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnSystemColorsChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnSystemColorsChangedEventArgs">
+            <summary>Задает stub Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnTabIndexChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnTabIndexChangedEventArgs">
+            <summary>Задает stub Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnTabStopChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnTabStopChangedEventArgs">
+            <summary>Задает stub Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnTextChanged(System.EventArgs)">
+            <summary>Задает Заглушка TextBoxBase.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnTextChangedEventArgs">
+            <summary>Задает stub TextBoxBase.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnVScroll(System.EventArgs)">
+            <summary>Задает Заглушка RichTextBox.OnVScroll(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnVScrollEventArgs">
+            <summary>Задает stub RichTextBox.OnVScroll(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnValidated(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnValidatedEventArgs">
+            <summary>Задает stub Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnValidating(System.ComponentModel.CancelEventArgs)">
+            <summary>Задает Заглушка Control.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnValidatingCancelEventArgs">
+            <summary>Задает stub Control.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.OnVisibleChanged(System.EventArgs)">
+            <summary>Задает Заглушка Control.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.OnVisibleChangedEventArgs">
+            <summary>Задает stub Control.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.PreProcessMessage(System.Windows.Forms.Message@)">
+            <summary>Задает Заглушка Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.PreProcessMessageMessageRef">
+            <summary>Задает stub Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>Задает Заглушка RichTextBox.ProcessCmdKey(Message&amp; m, Keys keyData)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ProcessCmdKeyMessageRefKeys">
+            <summary>Задает stub RichTextBox.ProcessCmdKey(Message&amp; m, Keys keyData)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.ProcessDialogChar(System.Char)">
+            <summary>Задает Заглушка Control.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ProcessDialogCharChar">
+            <summary>Задает stub Control.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.ProcessDialogKey(System.Windows.Forms.Keys)">
+            <summary>Задает Заглушка TextBoxBase.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ProcessDialogKeyKeys">
+            <summary>Задает stub TextBoxBase.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.ProcessKeyEventArgs(System.Windows.Forms.Message@)">
+            <summary>Задает Заглушка Control.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ProcessKeyEventArgsMessageRef">
+            <summary>Задает stub Control.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.ProcessKeyMessage(System.Windows.Forms.Message@)">
+            <summary>Задает Заглушка Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ProcessKeyMessageMessageRef">
+            <summary>Задает stub Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.ProcessKeyPreview(System.Windows.Forms.Message@)">
+            <summary>Задает Заглушка Control.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ProcessKeyPreviewMessageRef">
+            <summary>Задает stub Control.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.ProcessMnemonic(System.Char)">
+            <summary>Задает Заглушка Control.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ProcessMnemonicChar">
+            <summary>Задает stub Control.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.Refresh">
+            <summary>Задает Заглушка Control.Refresh()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.Refresh01">
+            <summary>Задает stub Control.Refresh()</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.ResetBackColor">
+            <summary>Задает Заглушка Control.ResetBackColor()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ResetBackColor01">
+            <summary>Задает stub Control.ResetBackColor()</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.ResetCursor">
+            <summary>Задает Заглушка Control.ResetCursor()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ResetCursor01">
+            <summary>Задает stub Control.ResetCursor()</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.ResetFont">
+            <summary>Задает Заглушка Control.ResetFont()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ResetFont01">
+            <summary>Задает stub Control.ResetFont()</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.ResetForeColor">
+            <summary>Задает Заглушка Control.ResetForeColor()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ResetForeColor01">
+            <summary>Задает stub Control.ResetForeColor()</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.ResetRightToLeft">
+            <summary>Задает Заглушка Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ResetRightToLeft01">
+            <summary>Задает stub Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.ResetText">
+            <summary>Задает Заглушка Control.ResetText()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ResetText01">
+            <summary>Задает stub Control.ResetText()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.RightToLeft">
+            <summary>Задает stub Control.get_RightToLeft()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.RightToLeftGet">
+            <summary>Задает stub Control.get_RightToLeft()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.RightToLeftSetRightToLeft">
+            <summary>Задает stub Control.set_RightToLeft(RightToLeft value)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.ScaleChildren">
+            <summary>Задает stub Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ScaleChildrenGet">
+            <summary>Задает stub Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.ScaleControl(System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Задает Заглушка Control.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ScaleControlSizeFBoundsSpecified">
+            <summary>Задает stub Control.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.ScaleCore(System.Single,System.Single)">
+            <summary>Задает Заглушка Control.ScaleCore(Single dx, Single dy)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ScaleCoreSingleSingle">
+            <summary>Задает stub Control.ScaleCore(Single dx, Single dy)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.Select(System.Boolean,System.Boolean)">
+            <summary>Задает Заглушка Control.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.SelectBooleanBoolean">
+            <summary>Задает stub Control.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.SelectedText">
+            <summary>Задает stub RichTextBox.get_SelectedText()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.SelectedTextGet">
+            <summary>Задает stub RichTextBox.get_SelectedText()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.SelectedTextSetString">
+            <summary>Задает stub RichTextBox.set_SelectedText(String value)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.SelectionLength">
+            <summary>Задает stub RichTextBox.get_SelectionLength()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.SelectionLengthGet">
+            <summary>Задает stub RichTextBox.get_SelectionLength()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.SelectionLengthSetInt32">
+            <summary>Задает stub RichTextBox.set_SelectionLength(Int32 value)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.SetBoundsCore(System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.BoundsSpecified)">
+            <summary>Задает Заглушка TextBoxBase.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.SetBoundsCoreInt32Int32Int32Int32BoundsSpecified">
+            <summary>Задает stub TextBoxBase.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.SetClientSizeCore(System.Int32,System.Int32)">
+            <summary>Задает Заглушка Control.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.SetClientSizeCoreInt32Int32">
+            <summary>Задает stub Control.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.SetVisibleCore(System.Boolean)">
+            <summary>Задает Заглушка Control.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.SetVisibleCoreBoolean">
+            <summary>Задает stub Control.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.ShortcutsEnabled">
+            <summary>Задает stub TextBoxBase.get_ShortcutsEnabled()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ShortcutsEnabledGet">
+            <summary>Задает stub TextBoxBase.get_ShortcutsEnabled()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ShortcutsEnabledSetBoolean">
+            <summary>Задает stub TextBoxBase.set_ShortcutsEnabled(Boolean value)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.ShowFocusCues">
+            <summary>Задает stub Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ShowFocusCuesGet">
+            <summary>Задает stub Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.ShowKeyboardCues">
+            <summary>Задает stub Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ShowKeyboardCuesGet">
+            <summary>Задает stub Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.Site">
+            <summary>Задает stub Control.get_Site()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.SiteGet">
+            <summary>Задает stub Control.get_Site()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.SiteSetISite">
+            <summary>Задает stub Control.set_Site(ISite value)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.SizeFromClientSize(System.Drawing.Size)">
+            <summary>Задает Заглушка Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.SizeFromClientSizeSize">
+            <summary>Задает stub Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.Text">
+            <summary>Задает stub RichTextBox.get_Text()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.TextGet">
+            <summary>Задает stub RichTextBox.get_Text()</summary>
+        </member>
+        <member name="P:NewRTB2.Fakes.StubNewRTB.TextLength">
+            <summary>Задает stub RichTextBox.get_TextLength()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.TextLengthGet">
+            <summary>Задает stub RichTextBox.get_TextLength()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.TextSetString">
+            <summary>Задает stub RichTextBox.set_Text(String value)</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.ToString">
+            <summary>Задает Заглушка TextBoxBase.ToString()</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.ToString01">
+            <summary>Задает stub TextBoxBase.ToString()</summary>
+        </member>
+        <member name="M:NewRTB2.Fakes.StubNewRTB.WndProc(System.Windows.Forms.Message@)">
+            <summary>Задает Заглушка RichTextBox.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:NewRTB2.Fakes.StubNewRTB.WndProcMessageRef">
+            <summary>Задает stub RichTextBox.WndProc(Message&amp; m)</summary>
+        </member>
+    </members>
+</doc>

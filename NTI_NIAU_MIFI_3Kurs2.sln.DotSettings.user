@@ -1,4 +1,11 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005C48562_005CDesktop_005C333_005CNewRTB2_005Cbin_005CRelease_005CNewRTB2NT4_002E6_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005C48562_005CDesktop_005C333_005CNewRTB2_005Cbin_005CRelease_005CNewRTB2_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005C48562_005CRiderProjects_005CNTI_005FNIAU_005FMIFI_005F3Kurs_005CNewRTB2_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\NewRTB2.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\IT31DEdit\bin\Debug\NewRTB2.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=RC4_002FF2/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=RC4_002FF3/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=RC4_002FFMain/@EntryIndexedValue">True</s:Boolean>
