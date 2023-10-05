@@ -55,12 +55,14 @@
             this.шифроватьToolStripMenuItem.Name = "шифроватьToolStripMenuItem";
             this.шифроватьToolStripMenuItem.Size = new System.Drawing.Size(124, 29);
             this.шифроватьToolStripMenuItem.Text = "Шифровать";
+            this.шифроватьToolStripMenuItem.Click += new System.EventHandler(this.шифроватьToolStripMenuItem_Click);
             // 
             // дешифроватьToolStripMenuItem
             // 
             this.дешифроватьToolStripMenuItem.Name = "дешифроватьToolStripMenuItem";
             this.дешифроватьToolStripMenuItem.Size = new System.Drawing.Size(142, 29);
             this.дешифроватьToolStripMenuItem.Text = "Дешифровать";
+            this.дешифроватьToolStripMenuItem.Click += new System.EventHandler(this.дешифроватьToolStripMenuItem_Click);
             // 
             // выходToolStripMenuItem
             // 
