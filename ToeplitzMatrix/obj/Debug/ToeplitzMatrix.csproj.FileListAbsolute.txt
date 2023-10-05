@@ -1,0 +1,6 @@
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\ToeplitzMatrix\bin\Debug\ToeplitzMatrix.exe
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\ToeplitzMatrix\bin\Debug\ToeplitzMatrix.pdb
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\ToeplitzMatrix\obj\Debug\ToeplitzMatrix.csproj.AssemblyReference.cache
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\ToeplitzMatrix\obj\Debug\ToeplitzMatrix.csproj.CoreCompileInputs.cache
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\ToeplitzMatrix\obj\Debug\ToeplitzMatrix.exe
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\ToeplitzMatrix\obj\Debug\ToeplitzMatrix.pdb

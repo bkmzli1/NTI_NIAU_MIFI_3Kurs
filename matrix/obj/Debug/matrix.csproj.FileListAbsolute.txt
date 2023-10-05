@@ -1,0 +1,6 @@
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\matrix\bin\Debug\matrix.exe
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\matrix\bin\Debug\matrix.pdb
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\matrix\obj\Debug\matrix.csproj.AssemblyReference.cache
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\matrix\obj\Debug\matrix.csproj.CoreCompileInputs.cache
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\matrix\obj\Debug\matrix.exe
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\matrix\obj\Debug\matrix.pdb
