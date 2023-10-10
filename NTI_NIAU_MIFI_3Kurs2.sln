@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp4", "Windows
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AES", "AES\AES.csproj", "{499203BA-ED37-4A0D-B1C4-5433C5652796}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AES_WPF", "AES_WPF\AES_WPF.csproj", "{4E29DD99-B1F0-4B18-9828-C7F92834C8EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -181,6 +183,18 @@ Global
 		{499203BA-ED37-4A0D-B1C4-5433C5652796}.Release|x64.Build.0 = Release|Any CPU
 		{499203BA-ED37-4A0D-B1C4-5433C5652796}.Release|x86.ActiveCfg = Release|Any CPU
 		{499203BA-ED37-4A0D-B1C4-5433C5652796}.Release|x86.Build.0 = Release|Any CPU
+		{4E29DD99-B1F0-4B18-9828-C7F92834C8EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E29DD99-B1F0-4B18-9828-C7F92834C8EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E29DD99-B1F0-4B18-9828-C7F92834C8EE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4E29DD99-B1F0-4B18-9828-C7F92834C8EE}.Debug|x64.Build.0 = Debug|Any CPU
+		{4E29DD99-B1F0-4B18-9828-C7F92834C8EE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4E29DD99-B1F0-4B18-9828-C7F92834C8EE}.Debug|x86.Build.0 = Debug|Any CPU
+		{4E29DD99-B1F0-4B18-9828-C7F92834C8EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E29DD99-B1F0-4B18-9828-C7F92834C8EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E29DD99-B1F0-4B18-9828-C7F92834C8EE}.Release|x64.ActiveCfg = Release|Any CPU
+		{4E29DD99-B1F0-4B18-9828-C7F92834C8EE}.Release|x64.Build.0 = Release|Any CPU
+		{4E29DD99-B1F0-4B18-9828-C7F92834C8EE}.Release|x86.ActiveCfg = Release|Any CPU
+		{4E29DD99-B1F0-4B18-9828-C7F92834C8EE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

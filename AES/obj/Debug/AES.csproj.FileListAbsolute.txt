@@ -1,0 +1,6 @@
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES\bin\Debug\AES.exe
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES\bin\Debug\AES.pdb
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES\obj\Debug\AES.csproj.AssemblyReference.cache
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES\obj\Debug\AES.csproj.CoreCompileInputs.cache
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES\obj\Debug\AES.exe
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES\obj\Debug\AES.pdb

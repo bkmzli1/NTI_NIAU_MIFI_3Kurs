@@ -1,0 +1,39 @@
+﻿<Window x:Class="AES_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AES_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+
+    <Grid Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Menu>
+            <MenuItem Header="File">
+                <MenuItem Header="Open" Name="openFile" Click="open_file"/>
+                <MenuItem Header="Save" Name="saveFile" Click="save_file"/>
+                <MenuItem Header="Кодирывать" Name="coding" Click="coding_menu"/>
+                <MenuItem Header="Декодирывать" Name="encoding" Click="encoding_menu"/>
+            </MenuItem>
+        </Menu>
+        
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="5">
+            <Label Content="Key:"/>
+            <TextBox Width="150" Name="key" Margin="5"/>
+            
+            <Label Content="IV:"/>
+            <TextBox Width="150" Name="iv" Margin="5"/>
+            
+        </StackPanel>
+        <TextBox Grid.Row="2" Name="multiLineText" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"/>
+
+       <Button Name="CodEncod" Grid.Row="3">Кодирывать</Button>
+         </Grid>
+</Window>

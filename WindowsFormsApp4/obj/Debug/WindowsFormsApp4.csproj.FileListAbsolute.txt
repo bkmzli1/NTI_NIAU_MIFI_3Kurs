@@ -8,7 +8,6 @@ C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\WindowsFormsApp4\obj\Debug\Wind
 C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.exe
 C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.pdb
 C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\WindowsFormsApp4\bin\Debug\NewRTB2.1.0.0.0.Fakes.fakesconfig
-C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\WindowsFormsApp4\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
 C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\WindowsFormsApp4\bin\Debug\NewRTB2.dll
 C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\WindowsFormsApp4\bin\Debug\cs\Microsoft.QualityTools.Testing.Fakes.resources.dll
 C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\WindowsFormsApp4\bin\Debug\de\Microsoft.QualityTools.Testing.Fakes.resources.dll

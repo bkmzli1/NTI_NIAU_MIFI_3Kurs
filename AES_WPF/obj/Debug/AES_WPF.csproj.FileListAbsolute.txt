@@ -1,0 +1,15 @@
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES_WPF\obj\Debug\AES_WPF.csproj.AssemblyReference.cache
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES_WPF\bin\Debug\AES_WPF.exe.config
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES_WPF\bin\Debug\AES_WPF.exe
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES_WPF\bin\Debug\AES_WPF.pdb
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES_WPF\obj\Debug\App.g.cs
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES_WPF\obj\Debug\AES_WPF_MarkupCompile.cache
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES_WPF\obj\Debug\AES_WPF_MarkupCompile.lref
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES_WPF\obj\Debug\MainWindow.baml
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES_WPF\obj\Debug\AES_WPF.g.resources
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES_WPF\obj\Debug\AES_WPF.Properties.Resources.resources
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES_WPF\obj\Debug\AES_WPF.csproj.GenerateResource.cache
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES_WPF\obj\Debug\AES_WPF.csproj.CoreCompileInputs.cache
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES_WPF\obj\Debug\AES_WPF.exe
+C:\Users\48562\RiderProjects\NTI_NIAU_MIFI_3Kurs\AES_WPF\obj\Debug\AES_WPF.pdb
