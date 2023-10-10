@@ -13,7 +13,7 @@ namespace matrix
             PrintMatrix(matrix, size);
 
             // Решаем систему линейных уравнений методом Гаусса
-            double[,] coefficients = { { 1, -2, 2 }, { 3, -4, 1 }, { 1, -1, 1 } }; // коэффициенты линейных уравнений
+            double[,] coefficients = { { 1, -2, 2 }, { 3, -4, 56 }, { 1, -1, 1 } }; // коэффициенты линейных уравнений
             double[] vector = { 3, 2, 1 }; // вектор результатов
             double[] result = SolveSystemGaussian(coefficients, vector);
             foreach (double res in result)
