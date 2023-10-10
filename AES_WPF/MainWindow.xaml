@@ -9,31 +9,32 @@
 
     <Grid Name="MainGrid">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
             <RowDefinition />
             <RowDefinition />
         </Grid.RowDefinitions>
 
         <Menu>
             <MenuItem Header="File">
-                <MenuItem Header="Open" Name="openFile" Click="open_file"/>
-                <MenuItem Header="Save" Name="saveFile" Click="save_file"/>
-                <MenuItem Header="Кодирывать" Name="coding" Click="coding_menu"/>
-                <MenuItem Header="Декодирывать" Name="encoding" Click="encoding_menu"/>
+                <MenuItem Header="Кодирывать" Name="coding" Click="coding_menu" />
+                <MenuItem Header="Декодирывать" Name="encoding" Click="encoding_menu" />
             </MenuItem>
         </Menu>
-        
-        <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="5">
-            <Label Content="Key:"/>
-            <TextBox Width="150" Name="key" Margin="5"/>
-            
-            <Label Content="IV:"/>
-            <TextBox Width="150" Name="iv" Margin="5"/>
-            
-        </StackPanel>
-        <TextBox Grid.Row="2" Name="multiLineText" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"/>
 
-       <Button Name="CodEncod" Grid.Row="3">Кодирывать</Button>
-         </Grid>
+        <StackPanel Orientation="Vertical" Grid.Row="1" Margin="5">
+            <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="5">
+                <Label Content="Key:" />
+                <TextBox Width="150" Name="key" Margin="5" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="5">
+            <Label Content="IV:" />
+            <TextBox Width="150" Name="iv" Margin="5" />
+            </StackPanel>
+        </StackPanel>
+        <TextBox Grid.Row="2" Name="multiLineText" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"
+                 HorizontalScrollBarVisibility="Auto" />
+
+        <Button Name="CodEncodButtonText" Grid.Row="3" Content="Кодирывать" Click="CodEncodButton"></Button>
+    </Grid>
 </Window>

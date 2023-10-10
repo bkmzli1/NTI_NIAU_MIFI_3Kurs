@@ -25,11 +25,11 @@ namespace AES
                     string s = "123";
                      Console.WriteLine("text: " +s);
                     byte[] bytes = aesS.Encript_AES(s, aes.Key, aes.IV);
-                    ;
+                    
                     Console.WriteLine("out: " + aesS.decriptorStringFromBits(bytes, aes.Key, aes.IV));
                 }
             }
-            
+          
             
         }
     }
