@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AES", "AES\AES.csproj", "{4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AES_WPF", "AES_WPF\AES_WPF.csproj", "{4E29DD99-B1F0-4B18-9828-C7F92834C8EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_AES_RC4", "WPF_AES_RC4\WPF_AES_RC4.csproj", "{5901CC5F-C511-4428-8C47-8692CC870675}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,18 @@ Global
 		{4E29DD99-B1F0-4B18-9828-C7F92834C8EE}.Release|x64.Build.0 = Release|Any CPU
 		{4E29DD99-B1F0-4B18-9828-C7F92834C8EE}.Release|x86.ActiveCfg = Release|Any CPU
 		{4E29DD99-B1F0-4B18-9828-C7F92834C8EE}.Release|x86.Build.0 = Release|Any CPU
+		{5901CC5F-C511-4428-8C47-8692CC870675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5901CC5F-C511-4428-8C47-8692CC870675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5901CC5F-C511-4428-8C47-8692CC870675}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5901CC5F-C511-4428-8C47-8692CC870675}.Debug|x64.Build.0 = Debug|Any CPU
+		{5901CC5F-C511-4428-8C47-8692CC870675}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5901CC5F-C511-4428-8C47-8692CC870675}.Debug|x86.Build.0 = Debug|Any CPU
+		{5901CC5F-C511-4428-8C47-8692CC870675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5901CC5F-C511-4428-8C47-8692CC870675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5901CC5F-C511-4428-8C47-8692CC870675}.Release|x64.ActiveCfg = Release|Any CPU
+		{5901CC5F-C511-4428-8C47-8692CC870675}.Release|x64.Build.0 = Release|Any CPU
+		{5901CC5F-C511-4428-8C47-8692CC870675}.Release|x86.ActiveCfg = Release|Any CPU
+		{5901CC5F-C511-4428-8C47-8692CC870675}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
